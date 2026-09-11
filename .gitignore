@@ -1,0 +1,9 @@
+# Derleme çıktıları ve geçici nesneler
+*.exe
+*.o
+bin/
+obj/
+
+# Code::Blocks çalışma alanı ve kullanıcı ayarları
+*.depend
+*.layout
