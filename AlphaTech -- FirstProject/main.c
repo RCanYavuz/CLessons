@@ -9,9 +9,26 @@ int main()
     //#printf("Kölee"\n); #\n satýrlarý bölmede kulalnýlýyor.
     //#return 0;
     //return 0;
+    /*
     printf("   *  \n");
     printf("  *** \n");
     printf(" ***** \n");
     printf("   *  \n  *** \n *****\n");
+    return 0;
+    */
+    //format specification:
+
+    printf("I am %d years old and next year I'm going to be %d years old.\n", 25, 26); // %d place holder just change place strings
+    printf("I was almost fail the algorithm class with %.1f\n",44.6); // 44.60000 become 44.6 by using %.1f
+    printf("We have %d coins in the bank\n",2000);
+    printf("We have %.1f coins int he bank\n",257.4);
+    printf("Year= %d",2026);
+    printf("Your avarage grade is : %f\n",25.6);
+    printf("num1= %d, num2= %d, sum= %d\n ",5,7,5+7);
+    printf("num1= %f, num2= %f, sum= %f\n",5.2,7.3,5.2+7.3);
+    printf("num1= %d, num2= %d, sub= %d\n",5,3,5-3);
+    printf("a= %d, b= %d, sum= a+b= %d +%d = %d\n",3,5,3,5,3+5);
+    printf("a= %d, b= %d, sum= %d + %d = %d\n", 3,5,3,5,3+5);
+
     return 0;
 }
