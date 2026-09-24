@@ -1,0 +1,17 @@
+# Code::Blocks derleme çıktıları
+bin/
+obj/
+
+# Derlenmiş dosyalar
+*.exe
+*.o
+*.obj
+*.out
+
+# Code::Blocks kişisel ayar dosyaları
+*.layout
+*.depend
+
+# Windows
+Thumbs.db
+desktop.ini
