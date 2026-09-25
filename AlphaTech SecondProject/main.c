@@ -149,6 +149,7 @@ int main()
     printf("Initialize is(h) : %f \n",i);
     return 0;
     */
+    /*
     int hours,minutes,seconds;
     int givenseconds;
     printf("Enter total seconds: ");
@@ -161,4 +162,6 @@ int main()
     printf("Total seconds: %d \n",seconds);
     printf("Total: %d : %d : %d \n",hours,minutes,seconds);
     return 0;
+    */
+
 }
