@@ -127,8 +127,38 @@ int main()
     scanf("%f",&an);
     Sn=(a1+an)*n/2;
     printf("Sum of the sequence is: %f  \n",Sn);
+    return 0;
     */
-
-
-
+    /*
+    float Salary, Totalhoursworked, Balance;
+    printf("Enter Salary (per hours): ");
+    scanf("%f",&Salary);
+    printf("Enter Total hours worked:  ");
+    scanf("%f",&Totalhoursworked);
+    Balance= Salary*Totalhoursworked;
+    printf("Your Balance will be: %f \n",Balance);
+    */
+    //x=v.i
+    /*
+    float x,v,i;
+    printf("Enter distance A to B(km): ");
+    scanf("%f",&x);
+    printf("Enter your speed(km/h): ");
+    scanf("%f",&v);
+    i=x/v;
+    printf("Initialize is(h) : %f \n",i);
+    return 0;
+    */
+    int hours,minutes,seconds;
+    int givenseconds;
+    printf("Enter total seconds: ");
+    scanf("%d",&givenseconds);
+    hours = givenseconds/3600;
+    minutes =((givenseconds- hours * 3600 )/60);
+    seconds = (givenseconds - hours * 3600)%60;
+    printf("Total hours: %d \n",hours);
+    printf("Total minutes: %d \n",minutes);
+    printf("Total seconds: %d \n",seconds);
+    printf("Total: %d : %d : %d \n",hours,minutes,seconds);
+    return 0;
 }
