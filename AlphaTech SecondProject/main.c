@@ -63,6 +63,7 @@ int main()
     printf("Avarage Grade is: %.2lf \n", gradeAvarage); // %.2lf use for delete 0 in double
     return 0;
     */
+    /*
     double CelsiusDegrees;
     double FahrenheitDegrees;
     printf("Enter Celsius Degrees: ");
@@ -70,4 +71,64 @@ int main()
     FahrenheitDegrees= CelsiusDegrees*1.8+32;
     printf("Fahrenheit Degree is : %.2lf", FahrenheitDegrees);
     return 0;
+    */
+    /* Swap Challange
+    double a = 7.8;
+    double b = 8.7;
+    double temp;
+    printf("a= %.2lf \n", a);
+    printf("b= %.2lf \n", b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("a= %.2lf \n", a);
+    printf("b= %.2lf \n", b);
+    return 0;
+    */
+    // Arithmetic Sequence:
+
+/*  Benim yaptýðým
+    int a1= 1;
+    int a2= 3;
+    int d;
+    d = a2 - a1;
+    int n;
+    printf("Please enter n :");
+    scanf("%d",&n);
+    int an;
+    an= a1 + (n-1)*d;
+    printf("an = %d", an);
+    return 0;
+*/
+
+    //Eðitimde olan farklar:
+    //float kullandýk, double farký byte sayýsý ayrýca float daha virgülden sonra daha kýsa alýr
+    // hepsini kullanýcýya verdirdik
+    /*
+    float a1,d;
+    int n;
+    printf("Enter the Initial Term: ");
+    scanf("%f", &a1);
+    printf("Enter the difference in the Arithmetic Sequence: ");
+    scanf("%f",&d);
+    printf("Enter the number of elements in the Arithmetic Sequence: ");
+    scanf("%d", &n);
+    printf("The n-th term of the Arithmetic Sequence = %f \n", a1+(n-1)*d);
+    return 0;
+    */
+    /*
+    float a1, an,Sn;
+    int n;
+    printf("Enter a1= ");
+    scanf("%f",&a1);
+    printf("Enter n= ");
+    scanf("%d",&n);
+    printf("Enter an= ");
+    scanf("%f",&an);
+    Sn=(a1+an)*n/2;
+    printf("Sum of the sequence is: %f  \n",Sn);
+    */
+
+
+
 }
