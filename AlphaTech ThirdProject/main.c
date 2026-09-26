@@ -48,6 +48,7 @@ int main()
         printf("Max= %f, Min= %f.",num2,num1);
     return 0 ;
 */
+/*
     int a,b,c;
     int max,min;
     printf("Enter your 3 numbers for scale: ");
@@ -67,5 +68,37 @@ int main()
     printf("Your maximum number is : %d and your minimum number is: %d \n",max,min);
     printf("Your numbers in %d between %d. \n",min,max);
     return 0;
+*/
+/*    //Logical Operators
+    //ýf we got 90 or higher
+    //and
+    //ýf we have less than 50 bucks
+    int grade,money;
+    printf("Enter your grade and your money: ");
+    scanf("%d, %d",&grade,&money);
+    //AND
+    if(grade>=90 && money <50 )
+    //OR
+    if(money <50 || grade >90)
+
+    if(!(grade > 80)),
+        printf("Good job! \n "); //grade =< 80
+    return 0;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
