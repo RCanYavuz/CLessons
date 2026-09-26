@@ -85,15 +85,59 @@ int main()
         printf("Good job! \n "); //grade =< 80
     return 0;
 */
+//Basic Calculater:
+/*
+  int num1,num2;
+  char mathOperation;
+
+  printf("Select your math operator(like '-','+',...): \n");
+  scanf("%c",&mathOperation);
+  printf("Enter your num1:  \n");
+  scanf("%d",&num1);
+  printf("Enter your num2:  \n");
+  scanf("%d",&num2);
 
 
+  switch(mathOperation)
+  {
+    case '+':
+        printf("%d %c %d = %d",num1,mathOperation,num2,num1+num2);
+        break;
+    case '-':
+        printf("%d %c %d = %d",num1,mathOperation,num2,num1-num2);
+        break;
+    case '*':
+        printf("%d %c %d = %d",num1,mathOperation,num2,num1*num2);
+        break;
+    case '/':
+        if (num2==0)
+            printf("Syntax Error");
+        else
+            printf("%d %c %d = %d",num1,mathOperation,num2,num1/num2);
+        break;
+    default:
+        printf("Wrong mathematical operation... Try again. \n");
+  }
+  return 0;
+*/
 
+//Write a program that reads from the user 2 values of an "integer" type.
+//The program should print "EQUAL" if both the values are equal.
+//Otherwise, the program should print "NOT EQUAL".
+    int num1,num2;
+    printf("Enter num1:");
+    scanf("%d",&num1);
+    printf("Enter num2: ");
+    scanf("%d",&num2);
+    if(num1==num2)
+        printf("EQUAL");
+    else
+        printf("NOT EQUALL");
 
-
-
-
-
-
+//Write a program that reads from the user 3 values of an "integer" type.
+//The program should print "EQUAL" if all the values are equal.
+//Otherwise, the program should print "NOT EQUAL".
+//Note: There's more than just 1 "correct" solution for this question.
 
 
 
