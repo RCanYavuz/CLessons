@@ -93,6 +93,7 @@ int main()
 //
 //For Loops
 //
+/*
     int num;
     int i;
     printf("Enter your number: ");
@@ -107,7 +108,7 @@ int main()
     }                         // ||
 //---------------------------------
     return 0;
-
+*/
 
 
 
