@@ -125,23 +125,67 @@ int main()
 //The program should print "EQUAL" if both the values are equal.
 //Otherwise, the program should print "NOT EQUAL".
     int num1,num2;
-    printf("Enter num1:");
+    printf("Enter num1: \n");
     scanf("%d",&num1);
-    printf("Enter num2: ");
+    printf("Enter num2: \n");
     scanf("%d",&num2);
     if(num1==num2)
-        printf("EQUAL");
+        printf("EQUAL \n");
     else
-        printf("NOT EQUALL");
+        printf("NOT EQUALL \n");
 
 //Write a program that reads from the user 3 values of an "integer" type.
 //The program should print "EQUAL" if all the values are equal.
 //Otherwise, the program should print "NOT EQUAL".
 //Note: There's more than just 1 "correct" solution for this question.
 
+    int num3,num4,num5;
+    printf("Enter num1:  \n");
+    scanf("%d",&num3),
+    printf("Enter num2:  \n");
+    scanf("%d",&num4);
+    printf("Enter num3:  \n");
+    scanf("%d",&num5);
+    if(num3==num4 && num4==num5)
+        printf("EQUAL \n");
+    else
+        printf("NOT EQUAL \n");
+
+//Write a program that reads from the user a "three-digit" integer value.
+//The program should print "ASCENDING" if the three digits of the number are in ascending order (from left to right).
+//If not, the program should print "NOT ASCENDING".
+//For example:
+//* Input: 137 --> ASCENDING (1<3<7)
+//* Input: 143 --> NOT ASCENDING.
+
+    int num6,num7,num8;
+    printf("Enter first number for three-digit integer value: \n");
+    scanf("%d",&num6);
+    printf("Enter second number for three-digit integer value: \n");
+    scanf("%d",&num7);
+    printf("Enter third number for three-digit integer value: \n");
+    scanf("%d",&num8);
+    printf("Your three digit integer is : %d%d%d \n",num6,num7,num8);
+    if(num6<num7 && num7<num8)
+        printf("This three digit integer is ASCENDING \n");
+    else
+        printf("This three digit integer is NOT ASCENDING \n");
 
 
 
+
+//Write a program that reads an input number from the user.
+//The program should print "1" if the value is positive, "-1" if it's negative, and "0" if it equals to zero.
+
+    int num9;
+    printf("Enter your number: ");
+    scanf("%d",&num9);
+    if(num9 < 0)
+        printf("-1");
+    if(num9>0)
+        printf("1");
+    else
+        printf("0");
 
 
 }
