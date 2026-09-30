@@ -97,10 +97,15 @@ int main()
     int i;
     printf("Enter your number: ");
     scanf("%d",&num);
-    for(i=0;i<num;i++)
-    {
-        printf("%d ",i);
-    }
+//    Initialization           Loop             Update
+//         Phase              Condition        Statement
+//          ⬇⬇⬇                ⬇⬇⬇⬇⬇⬇             ⬇⬇⬇⬇⬇
+    for(    i=0       ;        i<num        ;     i++)
+//---------------------------------
+    {                         // ||
+        printf("%d ",i);      // ||  Loop Body
+    }                         // ||
+//---------------------------------
     return 0;
 
 
