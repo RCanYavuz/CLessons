@@ -68,6 +68,7 @@ int main()
 //
 //              Do-While Loops
 //
+/*
     int price,totalPrice=0;
 
     do{
@@ -78,4 +79,44 @@ int main()
 
     printf("Total Order Price = %d \n",totalPrice);
     return 0;
+*/
+/*
+    int grade;
+    do{
+        printf("Please enter grade 0 to 100: ");
+        scanf("%d",&grade);
+      }while(0>grade || grade>100);
+
+    printf("Your grade is valid.");
+    return 0;
+*/
+//
+//For Loops
+//
+    int num;
+    int i;
+    printf("Enter your number: ");
+    scanf("%d",&num);
+    for(i=0;i<num;i++)
+    {
+        printf("%d ",i);
+    }
+    return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
