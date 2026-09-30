@@ -120,7 +120,7 @@ int main()
   }
   return 0;
 */
-
+/*
 //Write a program that reads from the user 2 values of an "integer" type.
 //The program should print "EQUAL" if both the values are equal.
 //Otherwise, the program should print "NOT EQUAL".
@@ -186,6 +186,64 @@ int main()
         printf("1");
     else
         printf("0");
+*/
+/*
+    int num1,num2;
+    printf("Enter first number: ");
+    scanf("%d",&num1);
+    printf("Enter second number: ");
+    scanf("%d",&num2);
+    if(num1==num2)
+        printf("True");
+    else
+        printf("False");
+*/
+/*
+    int num1;
+    printf("Enter num1: ");
+    scanf("%d",&num1);
+    if (num1 >= 10 && num1 <= 99)
+        printf("double-digit \n");
+    else if (num1 >= 100 && num1 <= 999)
+        printf("triple-digit\ n");
+    else
+        printf("neither double or triple digit\n");
+    return 0;
+*/
+
+/*
+    int n;
+    printf("Enter number: ");
+    scanf("%d",&n);
+    if(n<0){
+        printf("|%d|",n);
+        n=-n;
+        printf("=%d",n);
+    }
+    else
+        printf("&d",n);
+*/
+/*
+    int x,y;
+    printf("Enter your coordinate: ");
+    scanf("%d",&x);
+    scanf("%d",&y);
+    if(x>0 && y>0)
+        printf("Quardant 1");
+
+    else if(x<0 && y>0)
+        printf("Quardant 2");
+
+    else if(x<0 && y<0)
+        printf("Quardant 3");
+
+    else if(x>0 && y<0)
+        printf("Quardant 4");
+
+    else
+        printf("Coordinat is located at the center");
+*/
+
 
 
 }
