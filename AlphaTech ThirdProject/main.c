@@ -243,6 +243,84 @@ int main()
     else
         printf("Coordinat is located at the center");
 */
+/*
+    int n;
+    printf("Enter number for month(1-12): ");
+    scanf("%d",&n);
+    if(n==1)
+        printf("January \n");
+    else if(n==2)
+        printf("February \n");
+    else if(n==3)
+        printf("March \n");
+    else if(n==4)
+        printf("April");
+    else if(n==5)
+        printf("May");
+    else if(n==6)
+        printf("June");
+    else if(n==7)
+        printf("July");
+    else if(n==8)
+        printf("August");
+    else if(n==9)
+        printf("September");
+    else if(n==10)
+        printf("October");
+    else if(n==11)
+        printf("November");
+    else if(n==12)
+        printf("December");
+    else
+        printf("Wrong Number, Try Again!");
+
+    return 0;
+*/
+/*
+    int givenseconds,hours,minutes,seconds;
+    printf("Enter second: ");
+    scanf("%d",&givenseconds);
+    hours=givenseconds/3600;
+    minutes=(givenseconds-(3600*hours))/60;
+    seconds=(givenseconds-(3600*hours)) %60;
+    if(hours<10 && minutes<10)
+        printf("Your time is: 0%d:0%d:%d",hours,minutes,seconds);
+    else if(hours<10 && minutes>=10)
+        printf("Your time is: 0%d:%d:%d",hours,minutes,seconds);
+    else if(hours>=10 && minutes<10)
+        printf("Your time is: %d:0%d:%d",hours,minutes,seconds);
+    else if(hours>=10 && minutes>=10)
+        printf("Your time is: %d:%d:%d",hours,minutes,seconds);
+
+*/
+/*
+    int a,b,c;
+    printf("Enter your digits: ");
+    scanf("%d,",&c);
+    scanf("%d",&b);
+    scanf("%d",&a);
+    if(a % b == 0 || b % a == 0)
+        printf("Divisible");
+    else if(a % c == 0 || c % a == 0)
+        printf("Divisible");
+    else if(b % c == 0 || c % b == 0)
+        printf("Divisible");
+    else
+        printf("Non-Divisble");
+    return 0 ;
+*/
+/*
+    int year;
+    printf("Enter year: ");
+    scanf("%d",&year);
+    if(year % 4 == 0 && year % 100 != 0)
+        printf("This year is Leap Year");
+    else if(year % 400 == 0)
+        printf("This year is Leap Year");
+    else
+        printf("This year is Not Leap Year");
+    return 0;
+*/
 
 
 
